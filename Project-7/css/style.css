@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  display: flex;
+}
+
+.sidebar {
+  max-height: 100vh;
+  border: 2px solid #e0e0e0;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+/* .side_nav {
+  margin: 0 auto;
+} */
+.side_nav ul {
+  list-style-type: none;
+  line-height: 1.2rem;
+}
+.side_nav ul li {
+  /* border: 1px solid #e0e0e0; */
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.side_nav ul li:last-child {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.side_nav ul a {
+  text-decoration: none;
+  color: chocolate;
+}
+.side_nav ul a:hover li {
+  color: #fff;
+}
+
+.side_nav ul li:hover {
+  background-color: chocolate;
+}
+
+/* main-content CSS */
+
+section {
+  max-width: 1000px;
+  margin: 40px;
+}
+section h2 {
+  color: chocolate;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+section article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section article ul {
+  margin-left: 30px;
+}

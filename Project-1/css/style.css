@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "inter", monospace;
+}
+body {
+  background-color: #000;
+}
+.main__page {
+  border: 10px solid #1d1e4c;
+  border-bottom: none;
+  background-color: #e5e5fd;
+
+  margin: 0 auto;
+  width: 80%;
+}
+
+.wrapper {
+  padding: 70px 90px;
+}
+.hero__section {
+  /* max-height: 80vh; */
+  display: flex;
+}
+
+.profile_picture img {
+  width: 300px;
+  border-radius: 40%;
+  background-size: cover;
+  box-shadow: 5px 4px 3px #1d1e4c;
+}
+.abdul__info {
+  margin-left: 60px;
+  padding-top: 90px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.abdul__info h1 {
+  font-size: 48px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.abdul__info h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  padding-top: 5px;
+  text-align: end;
+}
+
+.abdul__quote {
+  font-size: 72px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.abdul_intro {
+  margin-top: 50px;
+}
+.abdul_intro p {
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.biography h2 {
+  margin-top: 40px;
+}
+
+.biography ul {
+  margin: 20px 0 0 30px;
+}
+
+.about__link {
+  width: 95%;
+  text-align: end;
+  padding-bottom: 50px;
+}
